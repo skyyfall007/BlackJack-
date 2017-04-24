@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package blackjacktdd;
+/**
+ * 
+ * @author SKYFALL (Adele Francois)
+ * @author Maggie Muse
+ * @collborativeauthor John Rose
+ */
+
+public class Card {
+ 
+	private int shuffle[] = new int [52];
+	private int shuffle[]=new int [52];
+	
+}

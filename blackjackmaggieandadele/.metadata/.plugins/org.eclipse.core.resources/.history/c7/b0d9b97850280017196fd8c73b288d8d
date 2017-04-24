@@ -1,0 +1,7 @@
+package blackjacktdd;
+
+public class Card {
+ 
+	private int shuffle[] = new int [52];
+	
+}

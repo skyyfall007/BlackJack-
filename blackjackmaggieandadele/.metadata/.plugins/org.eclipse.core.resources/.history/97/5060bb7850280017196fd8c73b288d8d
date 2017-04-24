@@ -1,0 +1,9 @@
+package blackjacktdd;
+
+public class CardDeck {
+	suit for loop
+	create for loop for each suite
+	create for loop for each rank
+	private int shuffle[] = new int [52];
+			cardindex of 13
+}
