@@ -11,6 +11,8 @@ package blackjacktdd;
 
 public enum Suit
 {
+	
+
  Heart, Spade, Diamond, Club
 	
 }
