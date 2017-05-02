@@ -56,67 +56,57 @@ public class Player {
 	        return false;
 	    }
 
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    /**
-	     * Checks for total hand value
-	     * If value is above 21 and contains an Ace card, set cardValue of Ace card to 1
-	     * @return int
-	     */
-	    public int getHandValue() {
-	        int value = 0;
-	        for(Card c : hand) {
-	            value += c.getCardNumber();
-	        }
+		public void clearHand() {
+			  hand.clear();
+			
+		}
 
-	        // Sets total hand value to (value - 10) if value is equal to 21 or
-	        // lower and keeps doing so depending on count value from aceInHand()
-	        if(value > 21 && aceInHand() >= 1) {
-	            for(int i = 0; i < aceInHand(); i++) {
-	                value = value - 10;
-	                if(value <= 21) {
-	                    break;
-	                }
-	            }
-	        }
+	    
+		  public int getHandValue() {
+		        int value = 0;
+		        for(Card c : hand) {
+		            value += c.getCardNumber();
+		        }
 
-	        return value;
-	    }
+		        // Sets total hand value to (value - 10) if value is equal to 21 or
+		        // lower and keeps doing so depending on count value from aceInHand()
+		        if(value > 21 && aceInHand() >= 1) {
+		            for(int i = 0; i < aceInHand(); i++) {
+		                value = value - 10;
+		                if(value <= 21) {
+		                    break;
+		                }
+		            }
+		        }
 
-	    /**
-	     * Checks hand for Ace card(s)
-	     * @return int
-	     */
-	    private int aceInHand() {
-	        int count = 0;
-	        for(Card c : hand) {
-	            if(c.getRank() == 1) {
-	                count++ ;
-	            }
-	        }
-	        return count;
-	    }
+		        return value;
+		    }
 
-	    /**
-	     * Method returns size of hand
-	     * @return int size
-	     */
-	    public int getHandSize() {
-	        return hand.size();
-	    }
+		    //how many Aces
+		    private int aceInHand() {
+		        int count = 0;
+		        for(Card c : hand) {
+		            if(c.getRank() == 1) {
+		                count++ ;
+		            }
+		        }
+		        return count;
+		    }
+		    
+		    
 
-	    /**
-	     * Method removes all element from player's hand
-	     */
-	    public void clearHand() {
-	        hand.clear();
-	    }
+		  //get num of cards in hand
+		    public int getHandSize() {
+		        return hand.size();
+		    }
 
-	} // end class Player
+	
+
+		} 
+	    
+	    
+	    
+	    
+	    
+
 
