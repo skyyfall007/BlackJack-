@@ -20,7 +20,7 @@ Xenon allows students to have the convince of learning on the go, any time of th
 
 ##  CREDITS
 
-This project could not have been possible without the following indivduals and their assigned roles:
+This project could not have been possible without the following indivduals:
 
 * Adele Francois [[@skyyfall007]](https://github.com/skyyfall007) 
 * Maggie Muse  [[@mmuse90]](https://github.com/mmuse90)   
