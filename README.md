@@ -16,6 +16,6 @@ Project based on [Uncle Bob's Code Kata](http://butunclebob.com/ArticleS.UncleBo
 
 This project could not have been possible without the following indivduals:
 
-* Adele Francois [[@skyyfall007]](https://github.com/skyyfall007) **Programmer**
-* Maggie Muse  [[@mmuse90]](https://github.com/mmuse90)   **Programmer**
+* Adele Francois [[@skyyfall007]](https://github.com/skyyfall007) ***(Programmer)***
+* Maggie Muse  [[@mmuse90]](https://github.com/mmuse90)   ***(Programmer)***
 
